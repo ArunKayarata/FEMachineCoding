@@ -24,9 +24,11 @@ button{
 }
 .add{
     background-color: green;
+    border-radius: .5rem;
 }
 .sub{
     background-color: red;
+    border-radius: .5rem;
 }
 
 .sym{
@@ -35,4 +37,10 @@ button{
 .reset{
     padding: .5rem;
     font-size: 2rem;
+}
+.resbtn{
+    height: 2rem;
+    width: 90%;
+    font-size: 1rem;
+    background-color: aqua;
 }
