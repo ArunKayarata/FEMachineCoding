@@ -1,0 +1,38 @@
+.container{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-weight: bold;
+    padding: .8rem;
+}
+.number{
+    padding: .5rem;
+    font-size: 3rem;
+}
+.addon{
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+button{
+    height: 3rem;
+    width: 3rem;
+    margin: .5rem;
+   
+}
+.add{
+    background-color: green;
+}
+.sub{
+    background-color: red;
+}
+
+.sym{
+    font-size: 3rem;
+}
+.reset{
+    padding: .5rem;
+    font-size: 2rem;
+}
