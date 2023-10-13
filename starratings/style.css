@@ -1,0 +1,21 @@
+.container{
+   margin: 2rem;
+   
+    
+}
+.star-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3rem;
+}
+.score{
+    font-size: 2rem;
+}
+.star{
+    cursor: pointer;
+    color: gray;
+}
+.star_filled{
+    color: yellow
+}
