@@ -1,0 +1,43 @@
+*{
+    background-color: lightblue;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.timer_headings{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.btn-pause,.btn-continue{
+    display: none;
+}
+#hr,#min,#sec{
+    width: 5rem;
+    margin: .5rem;
+}
+.container_btns{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+}
+.btn{
+    height: 25px;
+    font-size: 1rem;
+    background-color: aqua;
+    width: 90px;
+    margin: 1rem;
+    border-radius: .5rem;
+}
+#start{
+    background-color: green;
+}
+#reset{
+    background-color: red;
+}
